@@ -1,0 +1,46 @@
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 100%;
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutBottom {
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.aboutBottom h1 {
+  text-align: left;
+  color: wheat;
+  margin-bottom: 10px; /* Adjust space below heading */
+}
+
+.aboutBottom p {
+  width: 40%; /* Reduced width */
+  color: wheat;
+  font-size: 20px;
+  text-align: left; /* Align to the left */
+  margin-top: 40px; /* Remove default margin for more control */
+}
+
+
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: wheat;
+  padding-left:130px;
+  height: 30px;
+  display: flex;
+  justify-content: left;
+  transform: translateY(-40px);
+}
