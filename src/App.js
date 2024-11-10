@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Menu from './pages/Menu';
 import about from "../src/pages/About";
 import Contact from './pages/Contact';
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import { HashRouter as Router,Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">

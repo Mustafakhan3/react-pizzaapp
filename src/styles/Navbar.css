@@ -78,7 +78,8 @@
 
 @media only screen and (max-width: 600px) {
   .navbar .rightSide a {
-    display: none;
+    font-size: 20px;
+    
   }
 
   .navbar .rightSide {
