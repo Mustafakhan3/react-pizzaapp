@@ -21,9 +21,11 @@
 .navbar .rightSide {
   flex: 50%;
   height: 100%;
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .navbar a {
@@ -69,7 +71,9 @@
 }
 @media only screen and (max-width: 900px) {
   .navbar .rightSide a {
-    width: 70px;
+    width: 30px;
+    padding-right:0px ;
+    margin-right: 0px;
   }
   .navbar .leftSide {
     padding-left: 50px;
@@ -78,8 +82,8 @@
 
 @media only screen and (max-width: 600px) {
   .navbar .rightSide a {
-    font-size: 20px;
-    
+    width: 100%;
+    font-size: 6;
   }
 
   .navbar .rightSide {
@@ -87,12 +91,7 @@
     padding-right: 50px;
   }
 
-  .navbar .rightSide img {
-    display: inherit;
-    background-color: white;
-    width: 35px;
-    height: 35px;
- }
+
 }
 
 @media only screen and (min-width: 600px) {
